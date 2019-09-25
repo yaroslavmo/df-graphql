@@ -14,6 +14,14 @@
         "issues": "https://github.com/dreamfactorysoftware/df-graphql/issues",
         "wiki":   "https://wiki.dreamfactory.com"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+      {
+        "type": "vcs",
+        "url":  "https://github.com/yaroslavmo/df-core"
+      }
+    ],
     "license": "MIT",
     "type": "project",
     "require": {
