@@ -16,6 +16,14 @@
     },
     "license": "MIT",
     "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+      {
+        "type": "vcs",
+        "url":  "https://github.com/yaroslavmo/df-core"
+      }
+    ],
     "require": {
         "php": ">=5.5.9",
         "dreamfactory/df-core": "~0.15.1",
