@@ -1,29 +1,35 @@
 {
     "name": "dreamfactory/df-graphql",
     "description": "GraphQL for DreamFactory",
-    "keywords": ["dreamfactory", "laravel", "graphql", "react"],
+    "keywords": [
+        "dreamfactory",
+        "laravel",
+        "graphql",
+        "react"
+    ],
     "authors": [
         {
             "name": "Lee Hicks",
             "email": "leehicks@dreamfactory.com"
         }
     ],
-    "support":     {
-        "email":  "dspsupport@dreamfactory.com",
+    "support": {
+        "email": "dspsupport@dreamfactory.com",
         "source": "https://github.com/dreamfactorysoftware/df-graphql",
         "issues": "https://github.com/dreamfactorysoftware/df-graphql/issues",
-        "wiki":   "https://wiki.dreamfactory.com"
+        "wiki": "https://wiki.dreamfactory.com"
     },
     "license": "MIT",
     "type": "project",
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "repositories": [
-      {
-        "type": "vcs",
-        "url":  "https://github.com/yaroslavmo/df-core"
-      }
-    ],
+    "repositories": {
+        "private-packagist": {
+            "type": "composer",
+            "url": "https://repo.packagist.com/yaroslavmo-df/"
+        },
+        "packagist.org": false
+    },
     "require": {
         "php": ">=5.5.9",
         "dreamfactory/df-core": "~0.15.1",
